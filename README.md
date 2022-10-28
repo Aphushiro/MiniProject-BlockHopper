@@ -46,7 +46,7 @@ The idea of the project is heavily inspired by the game “Refunct” which is a
 | Movement polishing | 1 hour |
 | Challenge level | 4 hours 30 minutes|
 | Writing ReadMe | 2 hours |
-| In total | 14 hours 30 minutes|
+| In total | 12 hours 55 minutes|
 
 ## References
 * [FIRST PERSON MOVEMENT in Unity - FPS Controller](https://www.youtube.com/watch?v=_QajrabyTJc&ab_channel=Brackeys)
