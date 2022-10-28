@@ -1,9 +1,8 @@
 # MiniProject-BlockHopper
-Exam mini-project at AAU 2022
 ## Overview of idea
 The idea of the project is heavily inspired by the game “Refunct” which is a game I personally found on Steam some years ago. In Block hopper the player is able to move a character in a first-person perspective using keyboard controls, as well as camera controls through mouse movements. Upon launching the game, the player is presented to a tutorial world which is only completable using every keyboard interaction available. These are jump, double jump and wall jump. The player can also enter the Challenge world through a doorway. In this challenge world the player is presented with a new world with a much longer and challenging track. At the start of the level, the user is presented the option to turn checkpoints on and off.
 
-## Main parts of the game are:
+### Main parts of the game are:
 * Player - first person perspective view with the following controls:
   * Movement along x and z axis using WASD or arrow keys
   * Jump, doublejump and walljump using space bar
@@ -12,7 +11,7 @@ The idea of the project is heavily inspired by the game “Refunct” which is a
 * Levels - Two scenes. One is the tutorial world, while the other is the challenge world which the player can chose to play with or without checkpoints
 * Checkpoints - Activation of checkpoints instantiates invisible “safety nets” that returns the player to the checkpoints upon falling off the track. The checkpoints themselves are also invisible. The checkpoints can be toggled on and off using the checkpoint control station at the start of the challenge world
 
-## Project parts
+### Project parts
 * Scripts
   * CheckpointActivator - Activates “safety nets” upon being triggered by the player’s collider. 
   * CheckpointToggler - Sets the checkpoints’ activation state to true or false upon being triggered by the player’s collider
@@ -34,7 +33,7 @@ The idea of the project is heavily inspired by the game “Refunct” which is a
 * Testing
   * Game was tested only on windows
   
-# Time management
+## Time management
 | Task | Time spent |
 | --- | --- |
 | Conceptualizing idea and checking with project component requirements | 30 minutes |
@@ -49,6 +48,6 @@ The idea of the project is heavily inspired by the game “Refunct” which is a
 | Writing ReadMe | 2 hours |
 | In total | 14 hours 30 minutes|
 
-# References
+## References
 * [FIRST PERSON MOVEMENT in Unity - FPS Controller](https://www.youtube.com/watch?v=_QajrabyTJc&ab_channel=Brackeys)
 * [Teleporting Character - issue with transform.position in Unity 2018.3](https://answers.unity.com/questions/1614287/teleporting-character-issue-with-transformposition.html)
